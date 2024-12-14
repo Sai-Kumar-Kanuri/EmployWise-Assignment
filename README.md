@@ -5,10 +5,10 @@ A React application that integrates with the Reqres API to perform basic user ma
 ## Technologies Used
 
 - **Frontend Framework**: React
-- **State Management**: Context API (for authentication state management)
+- **State Management**: Context API 
 - **HTTP Client**: Axios (for API requests)
-- **CSS Framework**: Tailwind CSS (or custom CSS)
-- **Routing**: React Router (for page navigation)
+- **CSS Framework**: Tailwind CSS 
+- **Routing**: React Router 
 
 ### File Descriptions:
 
