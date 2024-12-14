@@ -1,11 +1,13 @@
 import { useState } from "react";
 import { useAuth } from "@/context/AuthContext";
 import toast from "react-hot-toast";
+import { useNavigate } from "react-router";
 
 const useLogOut = () => {
     const [loading, setLoading] = useState("");
     const { setAuthUser } = useAuth();
-
+    const navigate = useNavigate();
+    
     const logout = async () => {
 
         setLoading(true);
