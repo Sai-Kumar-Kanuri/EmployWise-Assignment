@@ -67,7 +67,7 @@ A React application that integrates with the Reqres API to perform basic user ma
      ```json
      {
        "name": "Updated Name",
-       "job": "Updated Job"
+       "email": "Updated email"
      }
      ```
    - **Response**: Returns the updated user data after successful modification.
